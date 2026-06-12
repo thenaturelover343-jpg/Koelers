@@ -67,6 +67,8 @@ python3 -m http.server 8080
 
 ## Hosten op GitHub Pages
 
-1. Repository → **Settings → Pages**.
-2. Source: *Deploy from a branch*, branch `main`, map `/ (root)`.
-3. De site staat daarna op `https://<gebruikersnaam>.github.io/Koelers/`.
+De site wordt automatisch gepubliceerd door de workflow
+`.github/workflows/deploy-pages.yml` bij elke push naar `main`
+(Settings → Pages → Source: *GitHub Actions*).
+
+**Live:** https://thenaturelover343-jpg.github.io/Koelers/
