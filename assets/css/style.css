@@ -374,8 +374,8 @@ a:hover { text-decoration: underline; }
   position: relative;
   background:
     radial-gradient(900px 500px at 85% -10%, rgba(217, 164, 37, 0.22), transparent 65%),
-    radial-gradient(700px 420px at -10% 110%, rgba(29, 44, 79, 0.9), transparent 70%),
-    linear-gradient(155deg, var(--ink) 0%, var(--ink-2) 55%, var(--ink-3) 100%);
+    linear-gradient(160deg, rgba(13, 19, 33, 0.94) 0%, rgba(13, 19, 33, 0.86) 45%, rgba(21, 32, 58, 0.92) 100%),
+    url("../img/hero-bg.jpg") center / cover no-repeat var(--ink);
   color: var(--text-inverse);
   padding-top: calc(var(--header-h) + clamp(48px, 10vw, 110px));
   padding-bottom: clamp(64px, 11vw, 130px);
@@ -476,7 +476,13 @@ a:hover { text-decoration: underline; }
   justify-self: center;
 }
 
-.hero-visual svg { width: min(380px, 100%); height: auto; filter: drop-shadow(0 24px 50px rgba(0, 0, 0, 0.45)); }
+.hero-visual img {
+  width: min(480px, 100%);
+  height: auto;
+  border-radius: var(--radius-lg);
+  border: 3px solid rgba(242, 193, 78, 0.55);
+  box-shadow: 0 34px 70px rgba(0, 0, 0, 0.55);
+}
 
 @media (min-width: 980px) {
   .hero-inner { grid-template-columns: 1.15fr 0.85fr; }
@@ -486,8 +492,9 @@ a:hover { text-decoration: underline; }
 /* Subhero voor binnenpagina's */
 .page-hero {
   background:
-    radial-gradient(700px 360px at 90% 0%, rgba(217, 164, 37, 0.18), transparent 65%),
-    linear-gradient(155deg, var(--ink) 0%, var(--ink-2) 70%, var(--ink-3) 100%);
+    radial-gradient(700px 360px at 90% 0%, rgba(217, 164, 37, 0.16), transparent 65%),
+    linear-gradient(160deg, rgba(13, 19, 33, 0.95) 0%, rgba(13, 19, 33, 0.88) 60%, rgba(21, 32, 58, 0.93) 100%),
+    url("../img/hero-bg.jpg") center / cover no-repeat var(--ink);
   color: var(--text-inverse);
   padding-top: calc(var(--header-h) + clamp(44px, 8vw, 84px));
   padding-bottom: clamp(44px, 7vw, 76px);
@@ -747,8 +754,9 @@ a:hover { text-decoration: underline; }
 /* CTA-band */
 .cta-band {
   background:
-    radial-gradient(620px 300px at 12% 0%, rgba(242, 193, 78, 0.25), transparent 60%),
-    linear-gradient(135deg, var(--ink) 0%, var(--ink-3) 100%);
+    radial-gradient(620px 300px at 12% 0%, rgba(242, 193, 78, 0.22), transparent 60%),
+    linear-gradient(100deg, rgba(13, 19, 33, 0.94) 30%, rgba(13, 19, 33, 0.78) 100%),
+    url("../img/hero-taps.jpg") center / cover no-repeat var(--ink);
   border-radius: var(--radius-lg);
   color: var(--text-inverse);
   padding: clamp(34px, 6vw, 64px);

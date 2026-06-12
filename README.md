@@ -18,17 +18,12 @@ assets/img/              logo + SVG-placeholders voor productfoto's
 sitemap.xml, robots.txt  SEO
 ```
 
-## ⚠️ Productfoto's toevoegen
+## Foto's
 
-De echte productfoto's van golderos.com konden vanuit de bouwomgeving niet gedownload
-worden (de site blokkeert geautomatiseerde toegang). De site toont daarom voorlopig
-stijlvolle SVG-illustraties. **Zodra u een foto met de juiste bestandsnaam in
-`assets/img/products/` plaatst, verschijnt die automatisch op de site** (de SVG dient
-enkel als fallback).
-
-Download de foto's van golderos.com / golderos.eu (als officiële verdeler hebt u daar
-toestemming voor — vraag de fabrikant eventueel om het originele beeldmateriaal) en
-bewaar ze met deze namen:
+De site bevat professionele foto's (tapinstallaties, vaten, koeltechniek en horeca)
+afkomstig uit publieke opensource-projecten. Om een foto te vervangen door officieel
+Golderos-beeldmateriaal volstaat het om het bestand met dezelfde naam te overschrijven
+in `assets/img/products/` — de site pikt het automatisch op:
 
 | Bestandsnaam                          | Gebruikt voor                              |
 | ------------------------------------- | ------------------------------------------ |
@@ -46,7 +41,8 @@ bewaar ze met deze namen:
 | `assets/img/products/custom.jpg`         | Maatwerk (diensten)                       |
 | `assets/img/products/team.jpg`           | Teamfoto (over ons)                       |
 
-Aanbevolen formaat: liggend, minimaal 800×600 px, JPG.
+Aanbevolen formaat: liggend, minimaal 800×600 px, JPG. De grote achtergrondfoto's van
+de hero-secties staan in `assets/img/hero-bg.jpg` en `assets/img/hero-taps.jpg`.
 
 ## Nog in te vullen (zoek op `TODO` in de bestanden)
 
