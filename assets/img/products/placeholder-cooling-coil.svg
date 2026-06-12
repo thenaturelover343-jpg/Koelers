@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img">
+  <g fill="none" stroke="#f2c14e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M76 28v14"/>
+    <path d="M164 152v-14"/>
+    <ellipse cx="120" cy="52" rx="44" ry="12"/>
+    <path d="M76 52v16c0 6.6 19.7 12 44 12s44-5.4 44-12V52" opacity="0.9"/>
+    <path d="M76 80v16c0 6.6 19.7 12 44 12s44-5.4 44-12V80" opacity="0.8"/>
+    <path d="M76 108v16c0 6.6 19.7 12 44 12s44-5.4 44-12v-16" opacity="0.7"/>
+  </g>
+  <g stroke="#f2c14e" stroke-width="2.5" stroke-linecap="round" opacity="0.5">
+    <path d="M36 70l-8-4M36 100h-10M36 130l-8 4M204 70l8-4M204 100h10M204 130l8 4"/>
+  </g>
+</svg>

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# TODO: vervang het domein zodra de definitieve domeinnaam gekend is
+Sitemap: https://www.golderosbenelux.be/sitemap.xml
