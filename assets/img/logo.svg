@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Golderos Benelux">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2c14e"/>
+      <stop offset="1" stop-color="#d9a425"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#0d1321"/>
+  <path d="M44 22a14 14 0 1 0 4 10h-14" fill="none" stroke="url(#g)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 8v6M32 50v6M12 20l5 3M47 41l5 3M12 44l5-3M47 23l5-3" stroke="url(#g)" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+</svg>

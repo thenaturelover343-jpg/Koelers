@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO: vervang het domein zodra de definitieve domeinnaam gekend is -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.golderosbenelux.be/nl/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.golderosbenelux.be/fr/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.golderosbenelux.be/nl/producten.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.golderosbenelux.be/fr/produits.html"/>
+  </url>
+  <url>
+    <loc>https://www.golderosbenelux.be/nl/diensten.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.golderosbenelux.be/fr/services.html"/>
+  </url>
+  <url>
+    <loc>https://www.golderosbenelux.be/nl/over-ons.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.golderosbenelux.be/fr/a-propos.html"/>
+  </url>
+  <url>
+    <loc>https://www.golderosbenelux.be/nl/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr-BE" href="https://www.golderosbenelux.be/fr/contact.html"/>
+  </url>
+  <url>
+    <loc>https://www.golderosbenelux.be/fr/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.golderosbenelux.be/nl/index.html"/>
+  </url>
+  <url>
+    <loc>https://www.golderosbenelux.be/fr/produits.html</loc>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.golderosbenelux.be/nl/producten.html"/>
+  </url>
+  <url>
+    <loc>https://www.golderosbenelux.be/fr/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.golderosbenelux.be/nl/diensten.html"/>
+  </url>
+  <url>
+    <loc>https://www.golderosbenelux.be/fr/a-propos.html</loc>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.golderosbenelux.be/nl/over-ons.html"/>
+  </url>
+  <url>
+    <loc>https://www.golderosbenelux.be/fr/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="nl-BE" href="https://www.golderosbenelux.be/nl/contact.html"/>
+  </url>
+</urlset>
